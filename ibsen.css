@@ -9,9 +9,9 @@
     font-family:serif;
     background-color: azure;
 }
-.hover{
+.direction:hover{
     background-color:brown;
-    color:bisque
+    color:bisque;
 }
 .firstCitizen{
     color:orange;
