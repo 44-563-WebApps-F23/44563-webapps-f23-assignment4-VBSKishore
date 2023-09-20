@@ -25,3 +25,13 @@
 .fourthCitizen{
     color:magenta;
 }
+table{
+    border: 10px solid orangered;
+    color:red;
+    text-align: center;
+    padding: 25px;
+    margin:4px;
+}
+tr:nth-child(even) {
+    background-color: cyan;
+  }
