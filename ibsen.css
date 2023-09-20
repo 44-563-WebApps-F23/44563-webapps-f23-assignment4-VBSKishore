@@ -35,3 +35,9 @@ table{
 tr:nth-child(even) {
     background-color: cyan;
   }
+  a:hover{
+     color:blue;
+     font-family:serif;
+     font-size:xx-large;
+     background-color: aqua;
+  }
