@@ -41,3 +41,27 @@ tr:nth-child(even) {
      font-size:xx-large;
      background-color: aqua;
   }
+  .firstCitizen:hover{
+    color:orange;
+    text-shadow: 2px 2px;
+    filter: blur(1px);
+}
+.secondCitizen:hover
+{
+    color:pink;
+    text-shadow: 2px 5px;
+    filter: blur(1px);
+}
+.thirdCitizen:hover
+{
+    color:cyan;
+    text-shadow:2px 5px red;
+    filter:blur(1px);
+}
+.fourthCitizen:hover
+{
+    color:magenta;
+    text-shadow:2px 5px blue;
+    filter:blur(1px);
+    
+}
