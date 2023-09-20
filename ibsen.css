@@ -1,0 +1,27 @@
+.speech{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+}
+.direction{
+    color:black;
+    font-size:x-large;
+    font-family:serif;
+    background-color: azure;
+}
+.hover{
+    background-color:brown;
+    color:bisque
+}
+.firstCitizen{
+    color:orange;
+}
+.secondCitizen{
+    color:pink
+}
+.thirdCitizen{
+    color:cyan;
+}
+.fourthCitizen{
+    color:magenta;
+}
