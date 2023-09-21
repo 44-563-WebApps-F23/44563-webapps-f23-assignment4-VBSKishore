@@ -9,6 +9,9 @@
     font-family:serif;
     background-color: azure;
 }
+.name{
+    color:blue;
+}
 .direction:hover{
     background-color:brown;
     color:bisque;
@@ -45,23 +48,43 @@ tr:nth-child(even) {
     color:orange;
     text-shadow: 2px 2px;
     filter: blur(1px);
+    border: 2px solid pink;
 }
 .secondCitizen:hover
 {
     color:pink;
     text-shadow: 2px 5px;
     filter: blur(1px);
+    border: 2px solid blue;
 }
 .thirdCitizen:hover
 {
     color:cyan;
     text-shadow:2px 5px red;
     filter:blur(1px);
+    border: 2px solid red;
 }
 .fourthCitizen:hover
 {
     color:magenta;
     text-shadow:2px 5px blue;
     filter:blur(1px);
+    border:2px solid orange;
     
 }
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100px;
+    background-color:red;
+    }
+    ul.navbar-horizontal a {
+    display: block;
+    color:orange;
+    }
+    /* on hover change the link color*/
+    ul.navbar-horizontal a:hover {
+    background-color: blue;
+    color:white;
+    }
