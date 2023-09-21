@@ -1,90 +1,104 @@
-.speech{
-    color:black;
-    font-family:'Courier New', Courier, monospace;
+.speech {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
     font-size: medium;
 }
-.direction{
-    color:black;
-    font-size:x-large;
-    font-family:serif;
+
+.direction {
+    color: black;
+    font-size: x-large;
+    font-family: serif;
     background-color: azure;
 }
-.name{
-    color:blue;
+
+.name {
+    color: blue;
 }
-.direction:hover{
-    background-color:brown;
-    color:bisque;
+
+.direction:hover {
+    background-color: brown;
+    color: bisque;
 }
-.firstCitizen{
-    color:orange;
+
+.firstCitizen {
+    color: orange;
 }
-.secondCitizen{
-    color:pink
+
+.secondCitizen {
+    color: pink
 }
-.thirdCitizen{
-    color:cyan;
+
+.thirdCitizen {
+    color: cyan;
 }
-.fourthCitizen{
-    color:magenta;
+
+.fourthCitizen {
+    color: magenta;
 }
-table{
+
+table {
     border: 10px solid orangered;
-    color:red;
+    color: red;
     text-align: center;
     padding: 25px;
-    margin:4px;
+    margin: 4px;
 }
+
 tr:nth-child(even) {
     background-color: cyan;
-  }
-  a:hover{
-     color:blue;
-     font-family:serif;
-     font-size:xx-large;
-     background-color: aqua;
-  }
-  .firstCitizen:hover{
-    color:orange;
+}
+
+a:hover {
+    color: blue;
+    font-family: serif;
+    font-size: xx-large;
+    background-color: aqua;
+}
+
+.firstCitizen:hover {
+    color: orange;
     text-shadow: 2px 2px;
     filter: blur(1px);
     border: 2px solid pink;
 }
-.secondCitizen:hover
-{
-    color:pink;
+
+.secondCitizen:hover {
+    color: pink;
     text-shadow: 2px 5px;
     filter: blur(1px);
     border: 2px solid blue;
 }
-.thirdCitizen:hover
-{
-    color:cyan;
-    text-shadow:2px 5px red;
-    filter:blur(1px);
+
+.thirdCitizen:hover {
+    color: cyan;
+    text-shadow: 2px 5px red;
+    filter: blur(1px);
     border: 2px solid red;
 }
-.fourthCitizen:hover
-{
-    color:magenta;
-    text-shadow:2px 5px blue;
-    filter:blur(1px);
-    border:2px solid orange;
-    
+
+.fourthCitizen:hover {
+    color: magenta;
+    text-shadow: 2px 5px blue;
+    filter: blur(1px);
+    border: 2px solid orange;
+
 }
+
 ul.navbar-horizontal {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width:100px;
-    background-color:red;
-    }
-    ul.navbar-horizontal a {
+    width: 100px;
+    background-color: red;
+}
+
+ul.navbar-horizontal a {
     display: block;
-    color:orange;
-    }
-    /* on hover change the link color*/
-    ul.navbar-horizontal a:hover {
+    color: orange;
+}
+
+/* on hover change the link color*/
+ul.navbar-horizontal a:hover {
     background-color: blue;
-    color:white;
-    }
+    color: white;
+}
